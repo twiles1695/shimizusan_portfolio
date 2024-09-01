@@ -1,0 +1,401 @@
+@charset "utf-8";
+
+.lead {
+  max-width: 1000px;
+  margin: 10px auto 0px;
+  text-align: center;
+}
+
+.lead_title {
+  font-size: 29px;
+  margin-bottom: 70px;
+  letter-spacing: 0.12em;
+}
+.lead_text {
+  font-size: 16px;
+  line-height: 45px;
+  margin-bottom: 50px;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+}
+
+/*  サービス */
+
+.heading2 {
+  width: 200px;
+  line-height: 54px;
+  background-color: #000;
+  color: #fff;
+  display: block;
+  font-size: 24px;
+  margin: 100px auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.service {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.service_inner {
+  justify-content: space-between;
+  display: flex;
+  margin: 10px auto 0px;
+  text-align: center;
+}
+
+.service_box {
+  width: 100%;
+  margin-bottom: 100px;
+  padding-right: 10px;
+}
+
+.service_box {
+  position: relative;
+}
+
+.service_img {
+  border: 15px solid #f5f5f5;
+  box-sizing: border-box;
+}
+
+.service_img_outer {
+  position: relative;
+}
+
+.service_retouch {
+  position: absolute;
+  top: 50%;
+  /* transform: translateY(50%); */
+  transform: rotate(-90deg);
+  font-family: "Noto Serif JP", serif;
+  font-size: 52px;
+  color: #dfdfdf;
+}
+
+.service_retouch.-left {
+  left: -250px;
+}
+.service_retouch.-right {
+  right: -260px;
+}
+
+.before {
+  position: absolute;
+  width: 110px;
+  top: -16px;
+  left: 0%;
+}
+.after {
+  position: absolute;
+  width: 110px;
+  top: -12px;
+  right: -30px;
+}
+
+/* img {
+  border: solid 15px #f5f5f5;
+} */
+
+.service_title {
+  font-size: 29px;
+  margin-bottom: 70px;
+  letter-spacing: 0.12em;
+  text-align: center;
+}
+
+.service_text {
+  font-size: 16px;
+  line-height: 45px;
+  margin-bottom: 50px;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  margin-top: 60px;
+}
+
+.button {
+  display: block;
+  width: 276px;
+  height: 49px;
+  line-height: 50px;
+  background-color: #ff2083;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 25px;
+  margin: 100px auto;
+  justify-content: center;
+}
+/*  合成サービス */
+
+.combined {
+  max-width: 1000px;
+  position: relative;
+  justify-content: space-between;
+  margin: 0 auto;
+  /* display: flex; */
+  max-width: 1000px;
+  margin: 10px auto 0px;
+  text-align: center;
+}
+
+.combined_img {
+  border: 15px solid #f5f5f5;
+  box-sizing: border-box;
+}
+
+.combined_img_outer {
+  position: relative;
+}
+
+.combined_box {
+  width: 100%;
+  margin-bottom: 100px;
+  padding-right: 10px;
+}
+
+.combined_box {
+  position: relative;
+}
+
+.combined_title {
+  font-size: 29px;
+  margin-bottom: 70px;
+  letter-spacing: 0.12em;
+  text-align: center;
+}
+
+.combined_text {
+  font-size: 16px;
+  line-height: 45px;
+  margin-bottom: 50px;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  margin-top: 60px;
+}
+
+.combined_photo {
+  position: absolute;
+  top: 50%;
+  transform: translateY(50%);
+  transform: rotate(-90deg);
+  font-family: "Noto Serif JP", serif;
+  font-size: 52px;
+  color: #dfdfdf;
+}
+
+.combined_photo.-left {
+  left: -280px;
+}
+.combined_photo.-right {
+  right: -299px;
+}
+
+.before2 {
+  top: -16px;
+  left: 0%;
+  position: absolute;
+  width: 100px;
+}
+.after2 {
+  top: -12px;
+  right: -30px;
+  position: absolute;
+  width: 100px;
+}
+
+/*  ここまで合成サービス */
+
+/* ここからデザイン */
+
+.design {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.design_title {
+  font-size: 29px;
+  margin-bottom: 70px;
+  letter-spacing: 0.12em;
+  text-align: center;
+}
+
+.design_box {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  margin-bottom: 50px;
+}
+
+.design_category {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.design_text {
+  font-size: 16px;
+  line-height: 45px;
+  margin-bottom: 50px;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.design_photo {
+  position: absolute;
+  top: 128px;
+  /* transform: translateY(50%); */
+  transform: rotate(-90deg);
+  font-family: "Noto Serif JP", serif;
+  font-size: 52px;
+  color: #dfdfdf;
+}
+.design_category_photo {
+  width: 30%;
+}
+
+.design_photo.-left {
+  left: -167px;
+}
+.design_photo.-right {
+  right: -139px;
+}
+
+/*  ここまでデザイン */
+
+/* ここからご利用の流れ */
+
+.article {
+  display: flex;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 22px;
+  max-width: 1000px;
+  color: #ff048a;
+}
+
+.usageflow {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.usageflow_title {
+  width: 150px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.usageflow_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 10px;
+  margin-bottom: 50px;
+}
+
+.usageflow_category {
+  width: 16.8%;
+  position: relative;
+}
+
+.usageflow_item_img {
+  position: relative;
+}
+
+.usageflow_item_img::after {
+  content: "";
+  background-image: url(../images/img_arrow.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  max-width: 20px;
+  width: 2vw;
+  height: 15px;
+  display: block;
+  top: 50%;
+  right: -2.6vw;
+  font-weight: bold;
+  transform: translateY(-50%);
+}
+
+.usageflow_text {
+  line-height: 32px;
+  font-weight: normal;
+  text-align: justify;
+}
+
+.usageflow_category:last-of-type .usageflow_item_img::after {
+  content: none;
+}
+
+.usageflow_item_heading {
+  text-align: center;
+  margin: 50px auto 20px;
+
+  font-weight: bold;
+}
+
+.usageflow_item_text {
+  font-size: 17px;
+  line-height: 1.47;
+}
+/* ここまでご利用の流れ */
+
+/* ここからプロフィール */
+
+.profile {
+  background-color: #f5f5f5;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 96px 120px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.heading.-profile {
+  margin: 100px auto 0;
+  top: 26px;
+}
+
+.profile_images {
+  width: 339px;
+  margin-bottom: 10px;
+}
+.profile_image_text {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.profile_box {
+  margin-left: 64px;
+}
+
+.profile_name {
+  font-size: 20px;
+  margin: 14px auto 20px;
+}
+.profile_text {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 32px;
+}
+.tel {
+  display: block;
+  width: 361px;
+  margin: 20px auto 20px;
+  line-height: 50px;
+  background-color: #ff2083;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+}
+.address {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 32px;
+}
+/* ここまでプロフィール */
